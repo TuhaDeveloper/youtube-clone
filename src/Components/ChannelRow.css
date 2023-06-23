@@ -1,0 +1,11 @@
+.ChannelRow {
+    display: flex;
+    align-items: center;
+}
+
+.channelRow-text {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+
+}

@@ -1,0 +1,26 @@
+.sidebar {
+    flex: 0.2;
+    color: black;
+}
+
+.sidebar .homeLink {
+    color: black;
+    font-weight: 500;
+}
+
+.sidebar>hr {
+    background-color: lightgray;
+    height: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+@media screen and (max-width:600px) {
+    .sidebar {
+        display: none;
+    }
+
+
+
+}

@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color: white;
+    padding: 20px;
+}
+
+.header-logo {
+    height: 35px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+
+.header-left {
+    display: flex;
+    align-items: center;
+    max-width: 20%;
+}
+
+.header-input {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 40%;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 2px;
+}
+
+.header-icon {
+    margin-right: 8px;
+}
+
+.header-input>input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.header-inputButton {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+    margin-top: 4px;
+}
+
+@media screen and (max-width:600px) {
+    .header-input>input {
+        width: 30%;
+    }
+
+    .header-left .manuIcon {
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header-input {
+        width: 0%;
+        border: none;
+    }
+
+    .header-input>input {
+        width: 0;
+    }
+
+    .header-inputButton {
+        border: none;
+    }
+
+
+}
+
+@media screen and (max-width:290px) {
+    .header-icon {
+        margin-right: 3px;
+    }
+
+    .header-input {
+        margin-right: 20px;
+    }
+
+    .headerAvatar {
+        margin-right: -14px;
+    }
+}
